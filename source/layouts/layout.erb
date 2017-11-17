@@ -13,6 +13,9 @@
   </head>
   <body>
     <%= partial "layouts/navbar" %>
+    <!-- inject Landing section on index -->
     <%= yield %>
+    <!-- Inject Sections -->
+    <%= partial "layouts/expertise_cards" %>
   </body>
 </html>
