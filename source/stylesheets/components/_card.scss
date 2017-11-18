@@ -8,7 +8,8 @@
   color: #212121;
   background-color: white;
   position: relative;
-  margin-right: 50px;
+  margin-right: 10px;
+  margin-left: 10px;
   margin-bottom: 50px;
   transition: transform .3s ease-in-out;
 
@@ -65,26 +66,30 @@
   width: 100%;
   bottom: 0px;
   content: "";
+
+  background-color: #fc5185;
+  background-color: #fc5185;
+background-image: url("data:image/svg+xml,%3Csvg width='20' height='20' viewBox='0 0 20 20' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 0h20L0 20z' fill='%23ffffff' fill-opacity='1' fill-rule='evenodd'/%3E%3C/svg%3E");
 }
 
 .bottom-turq {
   background-color: $turq;
-  opacity: 0.1;
+  opacity: 0.3;
 }
 
 .bottom-blue {
   background-color: $blue;
-  opacity: 0.05;
+  opacity: 0.2;
 }
 
 .bottom-dark {
   background-color: $dark;
-  opacity: 0.05;
+  opacity: 0.2;
 }
 
 .bottom-pink {
   background-color: $pink;
-  opacity: 0.05;
+  opacity: 0.2;
 }
 
 .card-link {
