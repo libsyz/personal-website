@@ -1,29 +1,57 @@
+.cards {
+  display: inline;
+}
 .card {
   height: 250px;
   background-size: cover !important;
   background-position: center;
   color: #212121;
+  background-color: white;
   position: relative;
-  box-shadow: 2px 2px 7px -1px rgba(85,224,205,1);
+  margin-right: 50px;
+  margin-bottom: 50px;
+  transition: transform .3s ease-in-out;
 
+  // box-shadow: 2px 2px 7px -1px rgba(85,224,205,1);
+}
+
+.card:hover {
+  position: relative;
+  transform: translate3d(0px, -3px, 0px);
+}
+
+.turq-shadow {
+  box-shadow: 2px 2px 10px 0px rgba(102,214,199,1);
+}
+
+.blue-shadow {
+  box-shadow: 2px 2px 7px -1px rgba(67,221,230,1);
+}
+
+.dark-shadow {
+  box-shadow: 2px 2px 7px -1px #364F6B;
+}
+
+.pink-shadow {
+  box-shadow: 2px 2px 7px -1px #FC5185;
 }
 
 .card-logo {
   position: absolute;
-  top: 10px;
-  left: 10px;
-  width: 45px;
-  height: 45px;
+  top: 13px;
+  left: 15px;
+  height: 50px;
+  width: 50px;
 }
 .card-description {
   position: absolute;
   top: 50px;
-  left: 10px;
+  left: 15px;
   width: 80%;
 }
 .card-description h2 {
   padding-top: 10px;
-  font-size: 24px;
+  font-size: 28px;
 }
 .card-description p {
   font-size: 14px;
@@ -33,13 +61,32 @@
 
 .card-bottom {
   position: absolute;
-  height: 15px;
+  height: 40px;
   width: 100%;
-  background-color: #78ffee;
-  opacity: 0.1;
   bottom: 0px;
   content: "";
 }
+
+.bottom-turq {
+  background-color: $turq;
+  opacity: 0.1;
+}
+
+.bottom-blue {
+  background-color: $blue;
+  opacity: 0.05;
+}
+
+.bottom-dark {
+  background-color: $dark;
+  opacity: 0.05;
+}
+
+.bottom-pink {
+  background-color: $pink;
+  opacity: 0.05;
+}
+
 .card-link {
   position: absolute;
   top: 0;
@@ -50,11 +97,11 @@
   background: black;
   opacity: 0;
 }
-.card-link:hover {
-  opacity: 0.1;
-}
+// .card-link:hover {
+//   opacity: 0.1;
+// }
 
 
 .breather {
-  background-color: #FAFAFA;
+  background-color: #F5F7F9;
 }
