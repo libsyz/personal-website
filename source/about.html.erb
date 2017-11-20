@@ -3,10 +3,12 @@ title: Le Wagon - Middleman - About
 ---
 
 <div id="about">
-  <div class="about-content">
-    <h1>This template was built with <i class="fa fa-heart"></i> by</h1>
-    <ul class="list-inline">
-      <% data.users.each do |user| %>
+ <div class="about-content">
+     <h1>This template was built with <i class="fa fa-heart"></i> by</h1>
+     <ul class="list-inline">
+       <% data.users.each do |user| %>
+
+
         <li>
           <% link_to "https://kitt.lewagon.com/alumni/#{user.github_nickname}", target: "_blank" do %>
             <%= image_tag "https://kitt.lewagon.com/placeholder/users/#{user.github_nickname}", class: "img-circle" %>
