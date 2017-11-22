@@ -1,0 +1,51 @@
+
+.dark {
+  background-color: $dark;
+}
+
+.call-to-action {
+  display: flex;
+  justify-content: space-around;
+  height: 285px;
+  width: 60%;
+  margin: 0 auto;
+  padding-top: 75px;
+}
+
+.cta-text {
+  text-align: center;
+  width: 50%;
+  color: white;
+  float: left;
+}
+
+
+a.btn-cta {
+  text-decoration: none;
+}
+
+.btn-cta {
+  color: white;
+  border: solid 1px white;
+  padding: 15px 20px 30px 20px;
+  border-radius: 3px;
+  margin-top: 30px;
+  margin-bottom: 95px;
+  transition: 0.3s ease;
+  &:hover{
+    background-color: white;
+    color: $dark;
+  }
+}
+
+.btn-cta > h3 {
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+
+.fa {
+  font-size: 20px;
+}
+
+
+

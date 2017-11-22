@@ -1,3 +1,19 @@
+.sections {
+  padding-bottom: 25px;
+  font-family: 'Montserrat';
+  color: black;
+}
+
+.sections > a {
+  text-decoration: none;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+  &:hover{
+    padding-bottom: 2px;
+    border-bottom: dotted 3px black;
+  }
+}
+
 
 ul.titles {
   overflow: hidden;
@@ -12,6 +28,7 @@ ul.titles {
   height: 150px;
   opacity: 0;
   font-size: calc(100vw / 14);
+  font-family: 'Muli';
   text-align: center;
   margin-bottom: 0px;
   margin-top: 100px;

@@ -1,0 +1,54 @@
+
+// Overarching wrapper properties
+
+.about-content {
+  height: 240px;
+}
+
+.about-content-pic,
+.about-content-bio,
+.about-content-trivia {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+// Profile pic properties
+
+.about-content-pic {
+  text-align: center;
+  margin-bottom: 0px;
+    .profile-avatar {
+    border-radius: 50%;
+    height: 160px;
+    width: 160px;
+    }
+    p {
+      padding-top: 3px;
+      color: #949494;
+    }
+}
+
+// Content Bio properties
+
+
+.about-content-bio {
+  text-align: center;
+  padding-right: 25px;
+  p {
+    font-size: 14px;
+    text-align: justify;
+  }
+}
+
+// Content trivia classes
+
+.about-content-trivia {
+  text-align: center;
+  padding-right: 25px ;
+}
+
+
+
+
