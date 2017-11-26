@@ -1,3 +1,7 @@
+.landing {
+  height: 85vh;
+}
+
 .sections {
   padding-bottom: 25px;
   font-family: 'Montserrat';
@@ -6,11 +10,13 @@
 
 .sections > a {
   text-decoration: none;
+  color: grey;
   padding-bottom: 5px;
   margin-bottom: 5px;
   &:hover{
+    color: black;
     padding-bottom: 2px;
-    border-bottom: dotted 3px black;
+    border-bottom: solid 3px black;
   }
 }
 
@@ -19,7 +25,6 @@ ul.titles {
   overflow: hidden;
   color: #78ffee;
   list-style: none;
-  font-size: 80px;
   white-space: nowrap;
   animation: fadeIn 1s ease-out 1 .6s;
   animation-fill-mode: forwards;
@@ -27,7 +32,7 @@ ul.titles {
   position: relative;
   height: 150px;
   opacity: 0;
-  font-size: calc(100vw / 14);
+  font-size: 95px;
   font-family: 'Muli';
   text-align: center;
   margin-bottom: 0px;
@@ -83,8 +88,10 @@ ul.titles li:nth-child(4) {
   animation-fill-mode: forwards;
 }
 
-.value-proposition > li > h4 {
+.value-proposition > li > p {
   position: absolute;
+  font-size: 16px;
+  line-height: 30px;
   padding: 15px;
   text-align: center;
   opacity: 1;
