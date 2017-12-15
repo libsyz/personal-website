@@ -32,13 +32,22 @@ ul.titles {
   position: relative;
   height: 150px;
   opacity: 0;
-  font-size: 95px;
+  font-size: 6em;
   font-family: 'Muli';
   text-align: center;
   margin-bottom: 0px;
   margin-top: 100px;
   padding-left: 0px;
 }
+
+@media only screen and (max-width: 500px) {
+    ul.titles {
+        font-size: 4em;
+        white-space: normal;
+
+    }
+}
+
 
 
 ul.titles li {
@@ -74,16 +83,20 @@ ul.titles li:nth-child(4) {
   color: #FC5185;
 }
 
+.container-value {
+  display: flex;
+  flex-direction: column;
+}
+
 .value-proposition {
   list-style: none;
   position: relative;
   padding-top: 25px;
-  width: 550px;
   margin: 0 auto;
   text-align: justify;
-  line-height: 28px;
   height: 150px;
   opacity: 0;
+  display: flex;
   animation: fadeIn 1s ease-out 1 .6s;
   animation-fill-mode: forwards;
 }
@@ -95,6 +108,12 @@ ul.titles li:nth-child(4) {
   padding: 15px;
   text-align: center;
   opacity: 1;
+}
+
+ul.value-proposition {
+  flex: 1;
+  padding-left: 0px;
+  width: 60%;
 }
 
 
@@ -114,12 +133,12 @@ ul.titles li:nth-child(4) {
   border-bottom-color: transparent;
   border-radius: 3px;
   animation: borderTurq 12s cubic-bezier(1, 0, 0, 1) infinite 0s;
-  // animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
 }
 
 
 .value-blue {
-  opacity: 0;
+  // opacity: 0;
   width: 100%;
   height: 100%;
   position: absolute;
@@ -130,13 +149,13 @@ ul.titles li:nth-child(4) {
   border-top-color: #43DDE6;
   border-bottom-color: transparent;
   border-radius: 3px;
-  animation: borderBlue 12s cubic-bezier(1, 0, 0, 1) infinite 0s;
+  // animation: borderBlue 12s cubic-bezier(1, 0, 0, 1) infinite 0s;
   animation-delay: 3s;
   animation-fill-mode: forwards;
 }
 
 .value-dark {
-  opacity: 0;
+  // opacity: 0;
   width: 100%;
   height: 100%;
   position: absolute;
@@ -147,12 +166,12 @@ ul.titles li:nth-child(4) {
   border-bottom-color: transparent;
   border-right-color: #364F6B;
   border-radius: 3px;
-  animation: borderDark 12s cubic-bezier(1, 0, 0, 1) infinite 0s;
+  // animation: borderDark 12s cubic-bezier(1, 0, 0, 1) infinite 0s;
   animation-delay: 6s;
 }
 
 .value-pink {
-  opacity: 0;
+  // opacity: 0;
   width: 100%;
   height: 100%;
   position: absolute;
@@ -163,7 +182,7 @@ ul.titles li:nth-child(4) {
   border-style: solid;
   border-width: 5px;
   border-radius: 3px;
-  animation: borderPink 12s cubic-bezier(1, 0, 0, 1) infinite 0s;
+  // animation: borderPink 12s cubic-bezier(1, 0, 0, 1) infinite 0s;
   animation-delay: 9s;
   animation-fill-mode: forwards;
 }
