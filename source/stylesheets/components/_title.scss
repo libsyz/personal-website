@@ -1,6 +1,4 @@
-.landing {
-  height: 85vh;
-}
+
 
 .sections {
   padding-bottom: 25px;
@@ -30,23 +28,16 @@ ul.titles {
   animation-fill-mode: forwards;
   pointer-events: none;
   position: relative;
-  height: 150px;
+  height: 40vh;
   opacity: 0;
   font-size: 6em;
   font-family: 'Muli';
   text-align: center;
   margin-bottom: 0px;
-  margin-top: 100px;
   padding-left: 0px;
 }
 
-@media only screen and (max-width: 500px) {
-    ul.titles {
-        font-size: 4em;
-        white-space: normal;
 
-    }
-}
 
 
 
@@ -55,69 +46,116 @@ ul.titles li {
   position: absolute;
   opacity: 0;
   width: 100%;
-  animation: rotateWord 12s cubic-bezier(1, 0, 0, 1) infinite 0s;
+  animation: rotateWord 8s cubic-bezier(1, 0, 0, 1) infinite 0s;
   animation-fill-mode: backwards;
-
+  top: 10vh;
 }
 
 
 
 ul.titles li:nth-child(2) {
-  -webkit-animation-delay: 3s;
-  -ms-animation-delay: 3s;
-  animation-delay: 3s;
+  -webkit-animation-delay: 2s;
+  -ms-animation-delay: 2s;
+  animation-delay: 2s;
   color: #43DDE6
 }
 
 ul.titles li:nth-child(3) {
-  -webkit-animation-delay: 6s;
-  -ms-animation-delay: 6s;
-  animation-delay: 6s;
+  -webkit-animation-delay: 4s;
+  -ms-animation-delay: 4s;
+  animation-delay: 4s;
   color: #364F6B;
 }
 
 ul.titles li:nth-child(4) {
-  -webkit-animation-delay: 9s;
-  -ms-animation-delay: 9s;
-  animation-delay: 9s;
+  -webkit-animation-delay: 6s;
+  -ms-animation-delay: 6s;
+  animation-delay: 6s;
   color: #FC5185;
 }
 
-.container-value {
-  display: flex;
-  flex-direction: column;
-}
 
-.value-proposition {
+
+.value-proposition-lg {
   list-style: none;
   position: relative;
-  padding-top: 25px;
   margin: 0 auto;
   text-align: justify;
-  height: 150px;
+  height: 22vh;
+  margin-bottom: 13vh;
   opacity: 0;
-  display: flex;
   animation: fadeIn 1s ease-out 1 .6s;
   animation-fill-mode: forwards;
 }
 
-.value-proposition > li > p {
+.value-proposition-lg > li > p {
   position: absolute;
   font-size: 16px;
   line-height: 30px;
   padding: 15px;
   text-align: center;
   opacity: 1;
+  width: 90%;
+  left: 2vw;
+  top: 5px;
 }
 
-ul.value-proposition {
-  flex: 1;
+ul.value-proposition-lg {
   padding-left: 0px;
   width: 60%;
 }
 
 
+.value-proposition-xs {
+  list-style: none;
+  position: relative;
+  margin: 0 auto;
+  text-align: justify;
+  margin-top: 8vh;
+  height: 22vh;
+  margin-bottom: 5vh;
+  opacity: 0;
+  animation: fadeIn 1s ease-out 1 .6s;
+  animation-fill-mode: forwards;
+}
 
+.value-proposition-xs > li > p {
+  position: absolute;
+  font-size: 14px;
+  line-height: 25px;
+  text-align: center;
+  opacity: 1;
+  width: 90%;
+  left: 2vw;
+  top: 30px;
+}
+
+ul.value-proposition-xs {
+  padding-left: 0px;
+  width: 90%;
+}
+
+
+@media only screen and (max-width: 1200px) {
+  .value-proposition-lg {
+    margin: 0 auto;
+    height: 30vh;
+    margin-bottom: 5vh;
+  }
+
+}
+
+
+
+@media only screen and (max-width: 500px) {
+  ul.titles {
+    font-size: 5em;
+    white-space: normal;
+  }
+    .sections {
+    padding-bottom: 0px;
+  }
+}
 
 
 .value-turq {
@@ -132,13 +170,13 @@ ul.value-proposition {
   border-top-color: transparent;
   border-bottom-color: transparent;
   border-radius: 3px;
-  animation: borderTurq 12s cubic-bezier(1, 0, 0, 1) infinite 0s;
+  animation: borderTurq 8s cubic-bezier(1, 0, 0, 1) infinite 0s;
   animation-fill-mode: forwards;
 }
 
 
 .value-blue {
-  // opacity: 0;
+  opacity: 0;
   width: 100%;
   height: 100%;
   position: absolute;
@@ -149,13 +187,13 @@ ul.value-proposition {
   border-top-color: #43DDE6;
   border-bottom-color: transparent;
   border-radius: 3px;
-  // animation: borderBlue 12s cubic-bezier(1, 0, 0, 1) infinite 0s;
-  animation-delay: 3s;
+  animation: borderBlue 8s cubic-bezier(1, 0, 0, 1) infinite 0s;
+  animation-delay: 2s;
   animation-fill-mode: forwards;
 }
 
 .value-dark {
-  // opacity: 0;
+  opacity: 0;
   width: 100%;
   height: 100%;
   position: absolute;
@@ -166,12 +204,12 @@ ul.value-proposition {
   border-bottom-color: transparent;
   border-right-color: #364F6B;
   border-radius: 3px;
-  // animation: borderDark 12s cubic-bezier(1, 0, 0, 1) infinite 0s;
-  animation-delay: 6s;
+  animation: borderDark 8s cubic-bezier(1, 0, 0, 1) infinite 0s;
+  animation-delay: 4s;
 }
 
 .value-pink {
-  // opacity: 0;
+  opacity: 0;
   width: 100%;
   height: 100%;
   position: absolute;
@@ -182,8 +220,8 @@ ul.value-proposition {
   border-style: solid;
   border-width: 5px;
   border-radius: 3px;
-  // animation: borderPink 12s cubic-bezier(1, 0, 0, 1) infinite 0s;
-  animation-delay: 9s;
+  animation: borderPink 8s cubic-bezier(1, 0, 0, 1) infinite 0s;
+  animation-delay: 6s;
   animation-fill-mode: forwards;
 }
 
@@ -381,7 +419,7 @@ ul.value-proposition {
 
   0% {
     opacity: 0;
-      transform: scale(0);
+    transform: scale(0);
 
     transform-origin: bottom right;
   }
