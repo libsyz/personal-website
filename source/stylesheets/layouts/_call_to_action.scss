@@ -3,18 +3,18 @@
   background-color: $dark;
 }
 
-.call-to-action {
-  display: flex;
-  justify-content: space-around;
-  height: 285px;
-  width: 60%;
-  margin: 0 auto;
-  padding-top: 75px;
-}
+// .call-to-action {
+//   display: flex;
+//   justify-content: space-around;
+//   height: 285px;
+//   width: 60%;
+//   margin: 0 auto;
+//   padding-top: 75px;
+// }
 
 .cta-text {
+  width: 100%;
   text-align: center;
-  width: 50%;
   color: white;
   float: left;
 }
@@ -25,9 +25,9 @@ a.btn-cta {
 }
 
 .btn-cta {
+  width: 80%;
   color: white;
   border: solid 1px white;
-  padding: 15px 20px 30px 20px;
   border-radius: 3px;
   margin-top: 30px;
   margin-bottom: 95px;

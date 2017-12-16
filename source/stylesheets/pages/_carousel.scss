@@ -5,9 +5,10 @@
 .carousel-control.right,
 .carousel-control.left {
   background-image: none;
+  bottom: 30px;
 }
 .carousel .item {
-  min-height: 400px;
+  height: 310px;
 }
 
 .carousel-caption {
@@ -24,7 +25,9 @@
 }
 
 .carousel-info {
-  height: 200px;
+  display: flex;
+  flex-direction: column;
+  height: 290px;
   background-color: white;
   color: black;
   text-shadow: none;
@@ -44,6 +47,7 @@
   opacity: 0.5;
   height: 40px;
   width: 100%;
+  flex-position: flex-end;
 }
 
 .caption-client {
