@@ -37,7 +37,8 @@
   text-align: center;
   padding-right: 25px;
   p {
-    font-size: 14px;
+    font-size: 16px;
+    line-height: 30px;
     text-align: justify;
   }
 }
@@ -46,9 +47,36 @@
 
 .about-content-trivia {
   text-align: center;
+  li {
+  text-align: justify;
+  font-size: 16px;
+  line-space: 25px;
   padding-right: 25px ;
+  margin-bottom: 10px;
+  }
+}
+
+.underline {
+  border-bottom: 3px solid;
+  margin-top: 3px;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.border-turq {
+  border-bottom-color: $turq;
+}
+
+.border-pink {
+  border-bottom-color: $pink;
 }
 
 
+.border-green {
+  border-bottom-color: $green;
+}
 
+.border-dark {
+ border-bottom-color: $dark
+}
 
