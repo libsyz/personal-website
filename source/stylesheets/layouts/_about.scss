@@ -1,6 +1,11 @@
 
 // Overarching wrapper properties
 
+.wrapper > .container.text-center > #about {
+  height: 40px;
+  background: none;
+}
+
 .about-content {
   height: 240px;
 }
