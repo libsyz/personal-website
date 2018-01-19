@@ -1,0 +1,21 @@
+- card_one:
+    title: "FullStack <br> Development"
+    description: "I like building web-based applications. I
+                also teach programming basics to aspiring
+                entrepreneurs at LeWagon bootcamp."
+
+- card_two:
+    title: "Workshop <br> Facilitation"
+    description: "The revolution will not be presented in PowerPoint.
+              I run dynamic, engaging sessions to help groups solve
+              problems."
+- card_three:
+    title: "Organizational <br> Learning"
+    description: "6+ years of experience applying behavioral science,
+              building kick-ass teams and developing leaders for
+              fortune 500 companies."
+- card_four:
+    title: "Business Model <br> Generation"
+    description: "Innovation = bold thinking + learning fast. Let's create
+              something feasible and viable that your customers
+              actually care for."
