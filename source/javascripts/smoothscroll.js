@@ -4,8 +4,7 @@ $( document ).ready(function() {
 
     var target = $(this.getAttribute('href'));
 
-    if( target.length ) {
-        console.log(target)
+    if( target.length && target.selector !== "#carousel-example-generic") {
         event.preventDefault();
         $('html, body').stop().animate({
             scrollTop: target.offset().top
