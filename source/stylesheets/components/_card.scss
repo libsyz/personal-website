@@ -26,6 +26,10 @@
   transform: translate3d(0px, -3px, 0px);
 }
 
+.card-link {
+  pointer-events: none;
+}
+
 .turq-shadow {
   box-shadow: 2px 2px 10px 0px rgba(102,214,199,1);
 }
