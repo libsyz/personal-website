@@ -34,12 +34,17 @@ a.btn-cta {
   color: white;
   border: solid 1px white;
   border-radius: 3px;
-  margin-top: 30px;
   margin-bottom: 95px;
+  margin-top: 20px;
+  padding-bottom: 16px;
+  padding-top: 22px;
   transition: 0.3s ease;
   &:hover {
     background-color: white;
     color: $dark;
+  }
+  &:focus {
+    color: white;
   }
 
 }
@@ -47,6 +52,7 @@ a.btn-cta {
 .btn-cta > h3 {
   margin-top: 0px;
   margin-bottom: 5px;
+
 }
 
 .fa {
