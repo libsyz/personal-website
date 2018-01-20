@@ -10,6 +10,7 @@ GIT
 GEM
   remote: https://rubygems.org/
   specs:
+    ruby (~> 2.3.3)
     actionpack (5.0.6)
       actionview (= 5.0.6)
       activesupport (= 5.0.6)
