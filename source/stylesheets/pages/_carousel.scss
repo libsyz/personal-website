@@ -33,25 +33,24 @@
 }
 
 .turq-box {
-  box-shadow: 2px 2px 10px 0px $green;
+  box-shadow: 2px 2px 7px -1px $green;
 }
 
 .pink-box {
-    box-shadow: 2px 2px 10px 0px $pink;
+    box-shadow: 2px 2px 7px -1px $pink;
 
 }
 
 .dark-box {
-    box-shadow: 2px 2px 10px 0px $dark;
+    box-shadow: 2px 2px 7px -1px $dark;
 }
 
 .green-box {
-  box-shadow: 2px 2px 10px 0px $green;
+  box-shadow: 2px 2px 7px -1px $green;
 }
 
 .caption-bottom {
   background-image: url("data:image/svg+xml,%3Csvg width='20' height='20' viewBox='0 0 20 20' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 0h20L0 20z' fill='%23ffffff' fill-opacity='1' fill-rule='evenodd'/%3E%3C/svg%3E");
-  opacity: 0.5;
   height: 40px;
   width: 100%;
   margin-top: 55px;
@@ -59,18 +58,22 @@
 
 .turq {
   background-color: $turq;
+  opacity: 0.3;
 }
 
 .dark {
   background-color: $dark;
+  opacity: 0.3;
 }
 
 .green {
   background-color: $green;
+  opacity: 0.3;
 }
 
 .pink {
   background-color: $pink;
+  opacity: 0.3;
 }
 
 .caption-client {
