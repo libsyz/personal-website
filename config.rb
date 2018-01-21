@@ -17,7 +17,11 @@ configure :build do
 end
 
 activate :deploy do |deploy|
-  deploy.build_before = true
-  deploy.deploy_method = :git
+   deploy.method   = :sftp
+  deploy.host            = 'sftp.sd6.gpaas.net'
+  deploy.port            = 22
+  deploy.path            = 'vhosts/default/'
+  deploy.user     = '37868' # no default
+  deploy.password = 'Im02i2sX_' # no default
 end
 
