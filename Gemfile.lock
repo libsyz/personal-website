@@ -184,5 +184,8 @@ DEPENDENCIES
   middleman-sprockets
   pry-byebug
 
+RUBY VERSION
+   ruby 2.3.3p222
+
 BUNDLED WITH
    1.16.0

@@ -21,7 +21,7 @@ activate :deploy do |deploy|
   deploy.host            = 'sftp.sd6.gpaas.net'
   deploy.port            = 22
   deploy.path            = 'vhosts/default/'
-  deploy.user     = '37868' # no default
-  deploy.password = 'Im02i2sX_' # no default
+  deploy.user     = '37868'
+  deploy.password = 'Im02i2sX_'
 end
 
