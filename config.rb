@@ -17,11 +17,11 @@ configure :build do
 end
 
 activate :deploy do |deploy|
-   deploy.method   = :sftp
+  deploy.build_before = true
+  deploy.deploy_method = :sftp
   deploy.host            = 'sftp.sd6.gpaas.net'
-  deploy.port            = 22
-  deploy.path            = 'vhosts/default/'
-  deploy.user     = '37868'
-  deploy.password = 'Im02i2sX_'
+  deploy.path            = '/vhosts/default/'
+  deploy.user            = '37868'
+  deploy.password        = 'Im02i2sX_'
 end
 
