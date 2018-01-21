@@ -1,5 +1,6 @@
 namespace :assets do
   task :precompile do
-    sh "middleman build"
+    puts "HELLO MIGUEL"
+    puts "WE ARE ABOUT TO COMPILE SOME ASSETS"
   end
 end
